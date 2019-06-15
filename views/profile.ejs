@@ -1,0 +1,17 @@
+<html>
+    <head>
+            <link href="/public/assets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <% include partials/nav.ejs %>
+        <h1>Welcome to my website <%= person %></h1>
+        <p>helllooooooooooooooooooooooooooooooo  <%= data.age %></p>
+        <p>helllooooooooooooooooooooooooooooooo  <%= data.job %></p>
+        <h2>Hobbies</h2>
+        <ul>
+        <% data.hobbies.forEach(function(item){ %>
+           <li><%= item %></li>
+            <% }); %>
+        </ul>
+    </body>
+</html>

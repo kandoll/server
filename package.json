@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "hen the first of the Galápagos Islands arose from the ocean floor around 3m years ago, they were naked, angry, lava-spewing cones devoid of life. Now, millions of years later, they are alive with some of the world’s most iconic animals. Giant tortoises. Sea iguanas. Flightless cormorants. And those finches equipped with Swiss army knife beaks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2"
+  }
+}
